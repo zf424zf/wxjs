@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # heisenberg
 
 > jian shen
@@ -28,3 +29,7 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# wxjs
+基于微信的健身客户端
+>>>>>>> 3bfb7c9551c7ba2036e3c8daec9ba2a2e8259d7c
