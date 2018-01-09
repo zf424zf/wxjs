@@ -107,7 +107,7 @@
   }
 
   .updatepwd .zhuce {
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
   }
 
   .updatepwd .weui-icon-clear {

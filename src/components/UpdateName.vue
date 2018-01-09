@@ -57,7 +57,7 @@
     color: #f3f3f3 !important;
     width: 90% !important;
     margin: 2rem 0 2rem 3rem;
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
   }
   .update-name .weui-icon-clear, .weui-icon-search{
     font-size: 2rem;

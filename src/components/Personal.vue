@@ -24,15 +24,15 @@
           <div class="home_order">
             <nav class="bar bar-tab">
               <div class="tab-item external">
-                <span class="icon iconfont " style="color: rgb(217,68,49)">{{user.balance}}元</span>
+                <span class="icon iconfont " style="color: #76a52b">{{user.balance}}元</span>
                 <span class="tab-label">钱包</span>
               </div>
               <div class="tab-item external">
-                <span class="icon iconfont " style="color: rgb(217,68,49)">{{user.discount}}个</span>
+                <span class="icon iconfont " style="color:#76a52b">{{user.discount}}个</span>
                 <span class="tab-label">优惠</span>
               </div>
               <div class="tab-item external">
-                <span class="icon iconfont " style="color:rgb(217,68,49)">{{user.score}}分</span>
+                <span class="icon iconfont " style="color:#76a52b">{{user.score}}分</span>
                 <span class="tab-label">积分</span>
               </div>
             </nav>

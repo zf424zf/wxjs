@@ -4,7 +4,7 @@
       <x-dialog class="city" v-model="isshow" :dialog-style="{'height':'100%','width':'100%','max-width':'100%'}">
         <div class="container">
           <div class="city-title">
-            <p class="dialog-title" style="color: #ea5826">选择上课时间</p>
+            <p class="dialog-title" style="color: #76a52b">选择上课时间</p>
             <div>
               <span class="vux-close" @click="closePop" style="width: 60px;height: 60px"></span>
             </div>
@@ -36,10 +36,10 @@
             </div>
             <div class="time-list">
               <ul style="max-height: 50%">
-                <li v-for="(item ,index) in times" class="" :class="{'disabled':item.status == 1}"
+                <li v-for="(item ,index) in times" class="" :class="{'disabled':item.status == 1 || item.status == 2}"
                     @click="changeSelect(item)">
                   <div class="time" :class="{'selected':item==hasSelect}">{{item.time}}</div>
-                  <div v-if="item.status == 1" class="text">不可选择</div>
+                  <div v-if="item.status == 1 || item.status == 2" class="text">不可选择</div>
                 </li>
               </ul>
             </div>
@@ -309,9 +309,9 @@
   }
 
   .appointe-time .time-list ul li.active {
-    background: #ea5826;
+    background: #8bc53f;
     color: #fff;
-    border-color: #ea5826;
+    border-color: #8bc53f;
   }
 
   .time-list li {
@@ -342,14 +342,14 @@
   }
 
   .appointe-time .date-box ul li.active .week {
-    color: #ea5826;
+    color: #76a52b;
     line-height: 1.5rem;
   }
 
   .appointe-time .date-box ul li.active .date {
     line-height: 1.2rem;
     font-size: 1.8rem;
-    color: #ea5826;
+    color: #76a52b;
   }
 
   .appointe-time .date-box ul li:last-of-type {
@@ -374,7 +374,7 @@
     overflow: auto;
   }
   .appointe-time .chosen-time .time-content ul li .content {
-    color: #ea5826;
+    color: #76a52b;
     font-size: 1.8rem;
   }
 
@@ -411,15 +411,15 @@
 
   .appointe-time .btn-box .left {
     width: 35%;
-    border: 1px solid #ea5826;
-    color: #ea5826;
+    border: 1px solid #8bc53f;
+    color: #76a52b;
     border-radius: .3rem;
   }
 
   .appointe-time .btn-box .right {
     width: 60%;
     margin-left: 5%;
-    background: #ea5826;
+    background: #8bc53f;
     color: #fff;
     border-radius: .3rem;
   }
@@ -442,12 +442,12 @@
     text-align: center;
     font-size: 2rem;
     font-family: PingFangSC-Medium;
-    background: #ea5826;
+    background: #8bc53f;
     color: #fff;
     border-radius: .3rem;
   }
 
   ul .selected {
-    border: .3rem #ea5826 solid;
+    border: .3rem #8bc53f solid;
   }
 </style>

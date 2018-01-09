@@ -140,6 +140,7 @@
   .member-gym {
     background: url("../../static/images/卓赢健身切图2_BG-3.png") repeat fixed;
     min-height: 84rem;
+    background-position-y: -9rem;
   }
 
   .member-gym .gym-head {
@@ -149,6 +150,7 @@
     float: left;
     z-index: 1500;
     width: 100%;
+    background-position-y: -9rem;
   }
 
   .member-gym .coach-list-box {
@@ -189,8 +191,8 @@
   }
 
   .member-gym .vux-tab .vux-tab-item.vux-tab-selected {
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .member-gym .vux-tab-ink-bar {

@@ -48,7 +48,7 @@
       </div>
       <div class="clearfix " style="margin-top: 1px">
         <div
-          style="background-color: #ea5826;height: 60px;line-height: 60px;font-size: 1.8rem;color: #e8e8e8;text-align: left;">
+          style="background-color: #8bc53f;height: 60px;line-height: 60px;font-size: 1.8rem;color: #e8e8e8;text-align: left;">
           <span style="margin-left: 1rem;font-size: 1.8rem">馆内教练</span>
           <span style="float: right;margin-right: 1rem" @click="goToJL">更多</span>
         </div>
@@ -94,7 +94,7 @@
       </div>
       <div class="clearfix " style="margin-top: 1px">
         <div
-          style="background-color: #ea5826;height: 60px;line-height: 60px;font-size: 2rem;color: #e8e8e8;text-align: left;">
+          style="background-color: #8bc53f;height: 60px;line-height: 60px;font-size: 2rem;color: #e8e8e8;text-align: left;">
           <span style="margin-left: 1rem">会员评价 {{evaluate.length}}条</span>
           <!--<span style="margin-left: 65%">更多</span>-->
         </div>
@@ -260,8 +260,8 @@
   }
 
   .gymInfo .vux-tab .vux-tab-item.vux-tab-selected {
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .gymInfo .filterbarpop-wrap .filterbarpop .main .item-operation {
@@ -293,7 +293,7 @@
   }
 
   .gymInfo .filterbar .container .row .selected {
-    color: #ea5826 !important;
+    color: #76a52b !important;
   }
 
   .gymInfo .filterbar .container {
@@ -432,7 +432,7 @@
   }
 
   .gymInfo .price {
-    color: #ea5826;
+    color: #76a52b;
   }
 
   .gymInfo .time {
@@ -546,12 +546,12 @@
   }
 
   .gymInfo .filterbarpop-wrap .filterbarpop .tab-bar .selected {
-    border-bottom: 2px solid #ea5826 !important;
+    border-bottom: 2px solid #8bc53f !important;
   }
 
   .gymInfo .filterbarpop-wrap .filterbarpop .main .line-style .item.selected {
-    color: #ea5826 !important;
-    border-color: #ea5826 !important;
+    color: #76a52b !important;
+    border-color: #8bc53f !important;
   }
 
   .gymInfo .coach-pic img {

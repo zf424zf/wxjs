@@ -146,7 +146,7 @@
     </div>
     <div v-if="coachInfo.active == 1" @click="buy" class="buy"
          style="width: 100%;height: 4.5rem;position: fixed;left:0;bottom:0;z-index: 1499;background-color:#fff;border-top: 1px #f7f7f7 solid">
-      <x-button style="background: #ea5826;width: 30%;height: 4rem;font-size: 2rem;color: #fff">立即购买</x-button>
+      <x-button style="background: #8bc53f;width: 30%;height: 4rem;font-size: 2rem;color: #fff">立即购买</x-button>
     </div>
     <div v-transfer-dom>
       <popup v-model="showCourseInfo"
@@ -227,8 +227,8 @@
         lists: [],
         checkClass: '',
         checkId: '',
-        color1: '#ff8007',
-        colors1: ['#ff8007'],
+        color1: '#8bc53f',
+        colors1: ['#8bc53f'],
         viewCount: 3,
         showAllSpan: true,
         showCourseInfo: false,
@@ -439,7 +439,7 @@
   .coachInfo .info-head .price {
     float: right;
     margin-right: 1rem;
-    color: #ea5826;
+    color: #76a52b;
   }
 
   .coachInfo .info-foot {
@@ -615,7 +615,7 @@
   }
 
   .coachInfo .class-info .price {
-    color: #ff6600;
+    color: #76a52b;
   }
 
   .coachInfo .class-info {
@@ -651,7 +651,7 @@
 
   .coachInfo .weui-icon-success-no-circle {
     font-size: 3rem !important;
-    color: #09BB07;
+    color: #76a52b;
   }
 
   .coachInfo .checks {
@@ -661,7 +661,7 @@
   }
 
   .coachInfo .check {
-    background-image: url(https://cdn.leoao.com/leoao-coach-mcheck.png);
+    background-image: url("../../static/images/choose.png");
   }
 
   /**
@@ -733,7 +733,7 @@
 
   .coachInfo .content-body .class-type {
     float: right;
-    color: #ff6600;
+    color: #76a52b;
   }
 
   .coachInfo .content-foot {

@@ -350,6 +350,7 @@
     background: url("../../static/images/卓赢健身切图2_BG-3.png") repeat fixed;
     min-height: 84rem;
     background-size: cover;
+    background-position-y: -9rem;
   }
 
   .sijiaoke .coachlist-head {
@@ -359,6 +360,7 @@
     float: left;
     z-index: 1500;
     width: 100%;
+    background-position-y: -9rem;
   }
 
   .sijiaoke .module-head {
@@ -389,8 +391,8 @@
   }
 
   .sijiaoke .vux-tab .vux-tab-item.vux-tab-selected {
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .sijiaoke .vux-tab-ink-bar {
@@ -407,9 +409,9 @@
   }
 
   .sijiaoke .filterbarpop-wrap .filterbarpop .main .multi-selected {
-    background: #F7E8E8;
-    color: #ea5826 !important;
-    border-color: #ea5826;
+    background: #8bc53f;
+    color: #76a52b !important;
+    border-color: #8bc53f;
   }
 
   .sijiaoke .pswp {
@@ -440,7 +442,7 @@
   }
 
   .sijiaoke .filterbar .container .row .selected {
-    color: #ea5826 !important;
+    color: #76a52b !important;
   }
 
   .sijiaoke .filterbar .container .row {
@@ -604,7 +606,7 @@
   }
 
   .sijiaoke .price {
-    color: #ea5826;
+    color: #76a52b;
   }
 
   .sijiaoke .price span:first-of-type {
@@ -726,12 +728,12 @@
   }
 
   .sijiaoke .filterbarpop-wrap .filterbarpop .tab-bar .selected {
-    border-bottom: 2px solid #ea5826 !important;
+    border-bottom: 2px solid #8bc53f !important;
   }
 
   .sijiaoke .filterbarpop-wrap .filterbarpop .main .line-style .item.selected {
-    color: #ea5826 !important;
-    border-color: #ea5826 !important;
+    color: #76a52b !important;
+    border-color: #8bc53f !important;
   }
 
   .sijiaoke .coach-pic img {
@@ -741,7 +743,7 @@
   }
 
   .sijiaoke .filterbarpop-wrap .filterbarpop .main .filter-btns a:last-child {
-    background: #ea5826 !important;
+    background: #8bc53f !important;
     color: #fff !important;
   }
 </style>

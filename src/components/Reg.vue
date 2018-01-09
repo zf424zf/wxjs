@@ -1,7 +1,7 @@
 <template>
   <div class="reg-container">
     <div class="reg-logo">
-      <img src="../../static/images/zyjs_logo.png"/>
+      <img src="../../static/images/zyjs_logo1.png"/>
     </div>
     <div class="body">
       <div class="reg">
@@ -187,12 +187,12 @@
 
   .reg-container .yzm {
     border-radius: .5rem !important;
-    border: .15rem solid #ff6600 !important;
+    border: .15rem solid #8bc53f !important;
     color: #1c1d1f !important;
   }
 
   .reg-container .zhuce {
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
   }
 
   .reg-container .back {

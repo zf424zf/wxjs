@@ -146,7 +146,7 @@
     width: 100%;
     height: 5rem !important;
     color: #f3f3f3 !important;
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
     font-size: 2rem;
   }
 
@@ -212,7 +212,7 @@
   }
 
   .pingjia-container .el-button--primary {
-    background-color: #ea5826;
-    border-color: #ea5826;
+    background-color: #8bc53f;
+    border-color: #8bc53f;
   }
 </style>

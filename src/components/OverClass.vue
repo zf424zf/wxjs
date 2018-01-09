@@ -181,8 +181,8 @@
   }
 
   .member-over-class .vux-tab .vux-tab-item.vux-tab-selected {
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .member-over-class .vux-tab-ink-bar {
@@ -339,7 +339,7 @@
 
   .member-over-class .course-list .right .log .alarm {
     float: right;
-    color: #FF6600;
+    color: #76a52b;
     font-size: 1.8rem;
   }
 
@@ -400,15 +400,15 @@
 
   .member-over-class .course-list .right .btn-box .btn-right {
     width: 30%;
-    border: 1px solid #ea5826;
-    color: #ea5826;
+    border: 1px solid #8bc53f;
+    color: #76a52b;
     border-radius: .3rem;
   }
 
   .member-over-class .course-list .right .btn-box .btn-left1 {
     width: 30%;
     margin-right: 2%;
-    background: #ea5826;
+    background: #8bc53f;
     color: #fff;
     border-radius: .3rem;
   }

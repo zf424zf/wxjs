@@ -201,13 +201,13 @@
 
   .pwdf .yzm {
     border-radius: .5rem !important;
-    border: .15rem solid #ff6600 !important;
+    border: .15rem solid #8bc53f !important;
     color: #1c1d1f !important;
     margin-top: 1rem;
   }
 
   .pwdf .zhuce {
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
   }
 
   .pwdf .back {
@@ -219,7 +219,7 @@
     height: 6rem !important;
     color: #f3f3f3 !important;
     width: 90% !important;
-    margin: 2rem 0 2rem .5rem;
+    margin: 2rem 0 2rem 0;
   }
 
   .pwdf .reg {

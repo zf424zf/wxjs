@@ -47,7 +47,8 @@
       Confirm,
     },
     created(){
-      let now = this.getDate(0,true);
+        let time_now = new Date();
+      let now =time_now.getFullYear() + '-' + (time_now.getMonth()+1)+'-'+time_now.getDate();
       let self = this;
       this.$axios.get(this.ApiRoute.getschedulebycoach + '?date=' + now, {}, {
         headers: {
@@ -89,9 +90,13 @@
           weekat: this.getDateFormatCN(i)
         });
       }
+      this.curOriginDate.setFullYear(new Date().getFullYear());
+      this.curOriginDate.setDate(new Date().getDate());
+      this.curOriginDate.setMonth(new Date().getMonth());
+      this.curYear = new Date().getFullYear();
+
       this.getWeek(-7);
       this.getWeek(7);
-
     },
     mounted(){
       let weeks = document.getElementById('weeks');
@@ -227,6 +232,11 @@
           curOrigin.setMonth(this.curOriginDate.getMonth() + 1);
         } else {
           curOrigin.setMonth(this.curOriginDate.getMonth());
+        }
+        if(this.curOriginDate.getMonth() == 0 && this.curOriginDate.getDate() < 7){
+            if(curOrigin.getDate() <= 31){
+              curOrigin.setFullYear(this.curOriginDate.getFullYear() - 1);
+            }
         }
 
         if (curOrigin.getMonth() == 0 && curOrigin.getDate() == 1 && isYear) {

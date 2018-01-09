@@ -1,5 +1,5 @@
 let localHostEnv = false;
-let _host = localHostEnv ? 'http://crm.dev/mobile/Api/' : 'http://crmapi.24parking.com.cn/mobile/Api/';
+let _host = localHostEnv ? 'http://crm.fan/mobile/Api/' : 'http://crmapi.24parking.com.cn/mobile/Api/';
 let ApiRoute = {
   getarea: _host + 'getarea',
   getsporthall: _host + 'getsporthall',

@@ -15,7 +15,7 @@
           </div>
           <div class="order-status right">
             <span @click="zhifu(item.number)" v-if="item.status==0"
-                  style="text-align: center;float: right;border: .1rem #ff6600 solid;height: 3rem;display: inline-block;width: 8rem;color: #ff6600">去支付</span>
+                  style="text-align: center;float: right;border: .1rem #8bc53f solid;height: 3rem;display: inline-block;width: 8rem;color: #76a52b">去支付</span>
             <span v-if="item.status==1">已支付</span>
             <span v-if="item.status==2">已取消</span>
             <span v-if="item.status==3">退款</span>
@@ -40,7 +40,7 @@
             总计1件商品
           </div>
           <div class="total right">
-            总计：<span style="color: #f00b0d">￥{{item['realamount']}}</span>
+            总计：<span style="color: #76a52b">￥{{item['realamount']}}</span>
           </div>
         </div>
       </div>
@@ -147,12 +147,12 @@
   .member-order vux-tab .vux-tab-item.vux-tab-selected {
     font-size: 1.5rem !important;
     line-height: 5rem !important;
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .member-order .vux-tab-ink-bar {
-    background-color: #ea5826 !important;
+    background-color: #8bc53f !important;
   }
 
   .member-order .clearfix:after {

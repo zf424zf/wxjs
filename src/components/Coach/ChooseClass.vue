@@ -35,10 +35,10 @@
             </div>
             <div class="time-list">
               <ul style="max-height: 50%">
-                <li v-for="(item ,index) in times" class="" :class="{'disabled':item.status == 1}"
+                <li v-for="(item ,index) in times" class="" :class="{'disabled':item.status == 2}"
                     @click="changeSelect(item)">
                   <div class="time" :class="{'selected':item==hasSelect}">{{item.time}}</div>
-                  <div v-if="item.status == 1" class="text">不可选择</div>
+                  <div v-if="item.status == 2" class="text">已约</div>
                 </li>
               </ul>
             </div>

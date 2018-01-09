@@ -212,18 +212,18 @@
   }
 
   #submit-order .weInfo li > h3 { /* 增肌课 */
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   #submit-order .weInfo .lesson { /* 280 */
-    color: #E95726;
+    color: #76a52b;
     text-align: right;
   }
 
   #submit-order .weInfo .lesson i {
     font-style: normal;
-    font-size: 1.2rem;
-    color: #E95726;
+    font-size: 1.5rem;
+    color: #76a52b;
   }
 
   #submit-order .weInfo li > h4 { /* 卓赢健身南京总部店 */
@@ -244,7 +244,7 @@
   }
 
   #submit-order ul.order li > .total {
-    color: #E95726;
+    color: #76a52b;
   }
 
   #submit-order ul.order li.calculate {
@@ -252,7 +252,7 @@
   }
 
   #submit-order ul.order li.calculate span {
-    color: #E95726;
+    color: #76a52b;
   }
 
   #submit-order .orderInfo {
@@ -284,12 +284,12 @@
   }
 
   #submit-order .payment > p > span {
-    color: #E95726;
+    color: #76a52b;
   }
 
   #submit-order .payment > .confirmPay {
     border: none;
-    background: #E95726;
+    background: #8bc53f;
     color: #fff;
     padding: .8rem 1.5rem;
     font-size: 2rem;

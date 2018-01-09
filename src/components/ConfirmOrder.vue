@@ -21,13 +21,13 @@
     <div class="co-foot">
       <div class="co-total" style="line-height: 5rem;margin-left: 6rem;float: left">
         <p style="font-size: 1.5rem;float: left;padding-top: 2rem;">总计</p>
-        <p style="font-size: 2rem;padding-top: 1.5rem;margin-left: 3.5rem;color: #f00b0d">
+        <p style="font-size: 2rem;padding-top: 1.5rem;margin-left: 3.5rem;color: #76a52b">
           ￥{{info.price * classCount}}</p>
       </div>
       <div style="float: right;width: 2rem;margin-right: 11rem;margin-top: 2.8rem"
            @click="confirmOrder(info.id,classCount)">
         <x-button class="co-pay" title="去支付"
-                  style="width: 10rem;height: 5rem;color: #fff;background-color: #ff6600;font-size: 2rem;">
+                  style="width: 10rem;height: 5rem;color: #fff;background-color: #8bc53f;font-size: 2rem;">
           确认下单
         </x-button>
       </div>
@@ -133,9 +133,13 @@
     margin: 1rem;
     /*border-bottom: 1px #6e727b solid;*/
   }
-
+  .co .vux-number-round .vux-number-selector-sub, .co .vux-number-round .vux-number-selector-plus {
+    padding: 2px;
+    border: 1px solid #8bc53f;
+    text-align: center;
+  }
   .co .co-price {
-    color: #f00b0d;
+    color: #76a52b;
   }
 
   .co .vux-label {
@@ -150,6 +154,7 @@
   .co .vux-number-selector svg {
     width: 3rem;
     height: 3rem;
+    fill: #8bc53f;
   }
 
   .co .vux-number-selector {

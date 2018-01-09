@@ -1,7 +1,7 @@
 <template>
   <div class="login-container">
     <div class="login-logo">
-      <img src="../../static/images/zyjs_logo.png"/>
+      <img src="../../static/images/zyjs_logo1.png"/>
     </div>
     <div class="login">
       <group>
@@ -198,7 +198,7 @@
 
   .login-container .denglu {
     color: #ffffff !important;
-    background-color: #ff6600 !important;
+    background-color: #8bc53f !important;
     width: 100% !important;
     height: 7rem !important;
   }

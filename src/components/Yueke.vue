@@ -53,7 +53,7 @@
       <div style="margin-top:18rem" v-if="lists.length <= 0">
         <span style="font-size: 2rem">暂无课程,快去购买吧</span>
         <x-button plain type="primary" link="/CoachList" class="custom-primary-red"
-                  style="margin-top:2rem;color: #ea5826;border-color:#ea5826;width: 20rem;height: 6rem;font-size: 2.5rem;border-radius: 1rem;line-height: 6rem">
+                  style="margin-top:2rem;color: #76a52b;border-color:#8bc53f;width: 20rem;height: 6rem;font-size: 2.5rem;border-radius: 1rem;line-height: 6rem">
           购买
         </x-button>
       </div>
@@ -87,7 +87,9 @@
                   self.lists[list].showYueke = false;
               }else{
                 self.lists[list].showYueke = true;
-                self.showYueke = false;
+                if(self.isordercourse == 0){
+                  self.showYueke = false;
+                }
               }
           }
         } else {
@@ -392,15 +394,15 @@
 
   .yueke .course-list .right .btn-box .btn-right {
     width: 30%;
-    border: 1px solid #ea5826;
-    color: #ea5826;
+    border: 1px solid #8bc53f;
+    color: #76a52b;
     border-radius: .3rem;
   }
 
   .yueke .course-list .right .btn-box .btn-left {
     width: 30%;
     margin-right: 2%;
-    background: #ea5826;
+    background: #8bc53f;
     color: #fff;
     border-radius: .3rem;
   }

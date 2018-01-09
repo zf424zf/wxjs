@@ -203,7 +203,7 @@
 
   .pingjialist .content-body .class-type {
     float: right;
-    color: #ff6600;
+    color: #76a52b;
   }
 
   .pingjialist .content-foot {

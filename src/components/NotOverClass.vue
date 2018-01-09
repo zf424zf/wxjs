@@ -45,7 +45,7 @@
           <div class="btn-box clearfix">
             <div class="btn-right" @click="telCoach(item.phone)">联系教练</div>
             <div class="btn-left" @click="confirmCancel=true">取消课程</div>
-            <div class="btn-left first" style=" color: #fdfdfd;background: #ea5826;" @click="saoma()">扫码签到</div>
+            <div class="btn-left first" style=" color: #fdfdfd;background: #8bc53f;" @click="saoma()">扫码签到</div>
           </div>
         </div>
         <confirm v-model="confirmCancel"
@@ -55,7 +55,7 @@
                  @on-cancel="confirmCancel = false"
                  mask-z-index="99999"
         >
-          <p style="text-align:center;font-size: 2rem;color: #ea5826">确定取消课程?</p>
+          <p style="text-align:center;font-size: 2rem;color: #76a52b">确定取消课程?</p>
         </confirm>
       </div>
     </div>
@@ -255,8 +255,8 @@
   }
 
   .member-notover-class .vux-tab .vux-tab-item.vux-tab-selected {
-    color: #ea5826 !important;
-    border-bottom: 3px solid #ea5826 !important;
+    color: #76a52b !important;
+    border-bottom: 3px solid #8bc53f !important;
   }
 
   .member-notover-class .vux-tab-ink-bar {
@@ -434,7 +434,7 @@
 
   .member-notover-class .course-list .right .log .alarm {
     float: right;
-    color: #FF6600;
+    color: #76a52b;
     font-size: 1.8rem;
   }
 
@@ -498,8 +498,8 @@
 
   .member-notover-class .course-list .right .btn-box .btn-right {
     width: 30%;
-    border: 1px solid #ea5826;
-    color: #ea5826;
+    border: 1px solid #8bc53f;
+    color: #76a52b;
     border-radius: .3rem;
   }
 
@@ -507,9 +507,9 @@
     width: 30%;
     margin-right: 2%;
     background: #fff;
-    color: #ea5826;
+    color: #76a52b;
     border-radius: .3rem;
-    border: 1px solid #ea5826;
+    border: 1px solid #8bc53f;
   }
 
 </style>
